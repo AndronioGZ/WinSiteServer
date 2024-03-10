@@ -1,0 +1,10 @@
+Connection: keep-alive
+Content-Length: 879696
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://localhost
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryEa8VqgVWFf7E20V9
+Referer: http://localhost/Upload.html
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4

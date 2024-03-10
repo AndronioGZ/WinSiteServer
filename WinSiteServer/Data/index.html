@@ -1,0 +1,86 @@
+<html>
+<head>
+
+<script src="jquery-1.10.2.js" type="text/javascript"></script>  
+<script type="text/javascript">
+	var maxPages;
+	var curPage = 0;
+	$.ajax({
+         url: "getmaxpages",
+         type: "GET",
+         cache:true,
+		 success: function(num){maxPages = num;}
+    });
+
+  $(document).ready(function(){
+	 $.ajax({
+         url: "preview?dir=0",
+         type: "GET",
+         cache:true,
+		 beforeSend: function(){$('#preview').html('Please wait...');},
+		 success: function(html){$('#preview').html(html);}
+       }); 
+     $("#prevpage").click(function(){
+       $.ajax({
+         url: "preview?dir=1",
+         type: "GET",
+         cache:true,
+		 beforeSend: function(){$('#preview').html('Please wait...');},
+		 success: function(html){$('#preview').html(html);}
+       });
+     });
+	 $("#nextpage").click(function(){
+       $.ajax({
+         url: "preview?dir=-1",
+         type: "GET",
+         cache:true,
+		 beforeSend: function(){$('#preview').html('Please wait...');},
+		 success: function(html){$('#preview').html(html);}
+       });
+     });
+  });  
+  
+  	function ChangeImg(a){
+    	document.getElementById("mainimg").src = a.href;
+		return false;
+    }
+	
+	function prevPage(){
+		if(curPage>0){
+			curPage--;
+		}		
+		return false;
+	}
+	
+	function nextPage(){
+		if(curPage<maxPages){
+			curPage++;
+		}
+		return false;
+	}
+
+  
+</script>
+
+
+</head>
+
+<body>
+
+<p style="text-align:center; vertical-align:middle; height:5%;">
+	<a href="main">Главная</a>&nbsp;&nbsp;&nbsp;<a href="portfolio">Портфолио</a>&nbsp;&nbsp;&nbsp;<a href="contacts">Контакты</a>
+</p>
+
+<div style="text-align:center;">
+	<img src="img1.jpg" id="mainimg" style="height:65%; width:auto;"/>
+</div>
+
+<p style="vertical-align:central; text-align:center; height:5%;">
+	<a href="#" id="prevpage" onClick="return prevPage();">&lt;&lt;</a>&nbsp;&nbsp;<a href="#" id="nextpage" onClick="return nextPage();">&gt;&gt;</a>
+</p>
+
+<div id="preview"></div>
+
+</body>
+
+</html>

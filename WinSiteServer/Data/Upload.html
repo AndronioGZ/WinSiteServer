@@ -1,0 +1,37 @@
+<html>
+<head>
+<title></title>
+<META content="text/html; charset=utf-8" http-equiv="Content-Type">
+</head>
+
+<body>
+<form action="upload" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <label for="file"></label>
+  <div align="center">
+    <table width="100" border="0">
+      <tr>
+        <td>Загрузить файл:</td>
+      </tr>
+      <tr>
+        <td><input type="file" name="file" id="file" onChange="onload:CheckExt(this);"/>
+        <input type="submit" name="submit" id="submit" value="Отправить" /></td>
+      </tr>
+    </table>
+  </div>
+</form>
+</body>
+
+<script language="javascript">
+	function CheckExt(inp){
+		var filename = inp.value;
+		var ext = filename.substring(filename.length - 3, filename.length);
+		ext = ext.toLowerCase();
+		if(ext!='jpg'){
+			alert('Файл должен иметь расшинение .jpg');
+			inp.form.reset();
+		}
+	}
+</script>
+																		
+
+</html>

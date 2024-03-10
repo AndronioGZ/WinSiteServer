@@ -1,0 +1,254 @@
+﻿Построение начато 14.01.2014 19:38:27.
+     1>Проект "d:\Docs\visual studio 2012\Projects\WinSiteServer\HTTPRequestHandler\HTTPRequestHandler.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D HTTPREQUESTHANDLER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\HTTPRequestHandler.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(9): warning C4251: HeaderData::Header: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами struct "HeaderData"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(10): warning C4251: HeaderData::Value: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами struct "HeaderData"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(15): warning C4251: URIData::varName: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами struct "URIData"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(16): warning C4251: URIData::varValue: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами struct "URIData"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(21): warning C4251: POSTData::varName: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами struct "POSTData"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(22): warning C4251: POSTData::varValue: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами struct "POSTData"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(30): warning C4251: HandleData::fileName: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами struct "HandleData"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(33): warning C4251: HandleData::URIData: class "std::vector<_Ty>" должен иметь dll-интерфейс для использования клиентами struct "HandleData"
+                 with
+                 [
+                     _Ty=URIDATA
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(34): warning C4251: HandleData::POSTData: class "std::vector<_Ty>" должен иметь dll-интерфейс для использования клиентами struct "HandleData"
+                 with
+                 [
+                     _Ty=POSTDATA
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(35): warning C4251: HandleData::Headers: class "std::vector<_Ty>" должен иметь dll-интерфейс для использования клиентами struct "HandleData"
+                 with
+                 [
+                     _Ty=HDRDATA
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(38): warning C4251: HandleData::Method: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами struct "HandleData"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(39): warning C4251: HandleData::URI: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами struct "HandleData"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(40): warning C4251: HandleData::Version: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами struct "HandleData"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(63): warning C4251: HTTPHandler::m_Version: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами class "HTTPHandler"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(64): warning C4251: HTTPHandler::m_StatusCode: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами class "HTTPHandler"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(65): warning C4251: HTTPHandler::m_ReasonPhrase: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами class "HTTPHandler"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(68): warning C4251: HTTPHandler::m_sBuf: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами class "HTTPHandler"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D HTTPREQUESTHANDLER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(9): warning C4251: HeaderData::Header: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами struct "HeaderData"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(10): warning C4251: HeaderData::Value: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами struct "HeaderData"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(15): warning C4251: URIData::varName: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами struct "URIData"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(16): warning C4251: URIData::varValue: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами struct "URIData"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(21): warning C4251: POSTData::varName: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами struct "POSTData"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(22): warning C4251: POSTData::varValue: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами struct "POSTData"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(30): warning C4251: HandleData::fileName: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами struct "HandleData"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(33): warning C4251: HandleData::URIData: class "std::vector<_Ty>" должен иметь dll-интерфейс для использования клиентами struct "HandleData"
+                 with
+                 [
+                     _Ty=URIDATA
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(34): warning C4251: HandleData::POSTData: class "std::vector<_Ty>" должен иметь dll-интерфейс для использования клиентами struct "HandleData"
+                 with
+                 [
+                     _Ty=POSTDATA
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(35): warning C4251: HandleData::Headers: class "std::vector<_Ty>" должен иметь dll-интерфейс для использования клиентами struct "HandleData"
+                 with
+                 [
+                     _Ty=HDRDATA
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(38): warning C4251: HandleData::Method: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами struct "HandleData"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(39): warning C4251: HandleData::URI: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами struct "HandleData"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(40): warning C4251: HandleData::Version: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами struct "HandleData"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(63): warning C4251: HTTPHandler::m_Version: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами class "HTTPHandler"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(64): warning C4251: HTTPHandler::m_StatusCode: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами class "HTTPHandler"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(65): warning C4251: HTTPHandler::m_ReasonPhrase: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами class "HTTPHandler"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\docs\visual studio 2012\projects\winsiteserver\httprequesthandler\HTTPHandler.h(68): warning C4251: HTTPHandler::m_sBuf: class "std::basic_string<_Elem,_Traits,_Alloc>" должен иметь dll-интерфейс для использования клиентами class "HTTPHandler"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D HTTPREQUESTHANDLER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\HTTPRequestHandler.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt HTTPHandler.cpp HTTPRequestHandler.cpp
+         HTTPHandler.cpp
+     1>HTTPHandler.cpp(76): warning C4018: <: несоответствие типов со знаком и без знака
+     1>HTTPHandler.cpp(95): warning C4244: =: преобразование "std::streamoff" в "int", возможна потеря данных
+     1>HTTPHandler.cpp(202): warning C4244: =: преобразование "std::streamoff" в "int", возможна потеря данных
+     1>HTTPHandler.cpp(225): warning C4244: =: преобразование "std::streamoff" в "int", возможна потеря данных
+         HTTPRequestHandler.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\docs\visual studio 2012\Projects\WinSiteServer\Release\HTTPRequestHandler.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Urlmon.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"d:\docs\visual studio 2012\Projects\WinSiteServer\Release\HTTPRequestHandler.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\docs\visual studio 2012\Projects\WinSiteServer\Release\HTTPRequestHandler.lib" /MACHINE:X86 /SAFESEH /DLL Release\dllmain.obj
+         Release\HTTPHandler.obj
+         Release\HTTPRequestHandler.obj
+         Release\stdafx.obj
+            Создается библиотека d:\docs\visual studio 2012\Projects\WinSiteServer\Release\HTTPRequestHandler.lib и объект d:\docs\visual studio 2012\Projects\WinSiteServer\Release\HTTPRequestHandler.exp
+         Создание кода
+         Создание кода завершено
+         HTTPRequestHandler.vcxproj -> d:\docs\visual studio 2012\Projects\WinSiteServer\Release\HTTPRequestHandler.dll
+     1>Построение проекта "d:\Docs\visual studio 2012\Projects\WinSiteServer\HTTPRequestHandler\HTTPRequestHandler.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:07.12
